@@ -381,6 +381,6 @@ void showAllDevices(ASDeviceType typeRequested) {
 		}
 		
 		getDeviceName(dev_array[i], deviceName);
-		printf("%s (%s)\n",deviceName,deviceTypeName(device_type));
+        printf("\"%s\" (ID: %u) (%s)\n", deviceName, dev_array[i], deviceTypeName(device_type));
 	}
 }
